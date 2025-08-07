@@ -32,3 +32,10 @@
 - POST /api/users: Thêm người dùng mới vào danh sách.
 - PUT /api/users/:id: Cập nhật thông tin người dùng.
 - DELETE /api/users/:id: Xóa người dùng theo ID.
+
+#
+
+- Sử dụng HTTP status codes:
+- 201 Created khi tạo thành công một người dùng mới.
+- 404 Not Found khi không tìm thấy người dùng.
+- 204 No Content khi xóa người dùng thành công.
